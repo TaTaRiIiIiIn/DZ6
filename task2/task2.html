@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Simple Calculator</h2>
+        <form id="calculatorForm">
+            <label for="num1">Number 1:</label>
+            <input type="text" id="num1" name="num1" />
+
+            <label for="num2">Number 2:</label>
+            <input type="text" id="num2" name="num2" />
+
+            <label for="operation">Operation:</label>
+            <select id="operation">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+            </select>
+
+            <button type="button" id="calculateBtn">Calculate</button>
+        </form>
+        <div id="result" class="result-message"></div>
+    </div>
+    <script src="task2.js"></script>
+</body>
+</html>
